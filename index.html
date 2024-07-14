@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Data Selector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrvJXRYAzMk4_QouIcVUSPVAnBcVP2tJcorw&s" height="50px" width="210px" alt="SERVEGAS Logo">
+    </header>
+    <main class="container">
+        <input type="file" id="fileInput" accept=".xlsx"><br>
+        
+        <div class="search-container">
+            <label for="searchInput">Search:</label>
+            <input type="text" id="searchInput" placeholder="Enter text to search">
+        </div>
+        <br>
+        <button id="searchButton" type="button">Search Data</button>
+    </main>
+    <footer>
+        <p><a href="https://servegas.qa/" target="_blank">SERVEGAS © 2024. All Rights Reserved.</a></p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

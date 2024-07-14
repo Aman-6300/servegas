@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    background: #ffffff;
+    color: rgb(242, 242, 242);
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    background: #303070;
+    color: rgb(242, 242, 242);
+    padding: 20px;
+    text-align: left;
+    margin-top: auto;
+}
+
+footer p, header h1 {
+    margin: 0;
+}
+
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+input[type="file"], input[type="text"], button {
+    width: calc(100% - 20px); /* Ensure inputs and buttons are nicely aligned */
+    max-width: 400px; /* Limit the width of inputs and buttons */
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    cursor: pointer;
+    background-color: #303070;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+    height: 30px;
+    width: 100px;
+}
+.button1{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: rgb(88, 6, 6);
+    border: none;
+    transition: background-color 0.3s;
+    height: 50px;
+    width: 100px; 
+    align-self:center;
+}
+
+
+
+button:hover {
+    background-color: #1de10f;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container label {
+    margin-right: 10px; 
+}
